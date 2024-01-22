@@ -43,23 +43,25 @@
  * @author 아라
  */
 
+$fallback = 'ko';
+
 $namespaceNames = [
 	NS_MEDIA            => '미디어',
-	NS_SPECIAL          => '특수',
-	NS_TALK             => '토론',
-	NS_USER             => '사용자',
-	NS_USER_TALK        => '사용자토론',
-	NS_PROJECT_TALK     => '$1토론',
+	NS_SPECIAL          => '特殊',
+	NS_TALK             => '討論',
+	NS_USER             => '使用者',
+	NS_USER_TALK        => '使用者討論',
+	NS_PROJECT_TALK     => '$1討論',
 	NS_FILE             => '파일',
-	NS_FILE_TALK        => '파일토론',
+	NS_FILE_TALK        => '파일討論',
 	NS_MEDIAWIKI        => '미디어위키',
-	NS_MEDIAWIKI_TALK   => '미디어위키토론',
+	NS_MEDIAWIKI_TALK   => '미디어위키討論',
 	NS_TEMPLATE         => '틀',
-	NS_TEMPLATE_TALK    => '틀토론',
+	NS_TEMPLATE_TALK    => '틀討論',
 	NS_HELP             => '도움말',
-	NS_HELP_TALK        => '도움말토론',
-	NS_CATEGORY         => '분류',
-	NS_CATEGORY_TALK    => '분류토론',
+	NS_HELP_TALK        => '도움말討論',
+	NS_CATEGORY         => '分類',
+	NS_CATEGORY_TALK    => '分類討論',
 ];
 
 $namespaceAliases = [
@@ -373,13 +375,6 @@ $magicWords = [
 	'url_path'                  => [ '0', '경로', 'PATH' ],
 	'url_query'                 => [ '0', '쿼리', 'QUERY' ],
 	'url_wiki'                  => [ '0', '위키', 'WIKI' ],
-];
-
-$bookstoreList = [
-	'Aladin.co.kr' => 'https://www.aladin.co.kr/catalog/book.asp?ISBN=$1',
-	'National Library of Korea' => 'https://www.nl.go.kr/NL/contents/search.do?srchTarget=cheonggu&kwd=$1',
-	'Naver' => 'https://book.naver.com/search/search.nhn?query=$1',
-	'inherit' => true,
 ];
 
 $datePreferences = [
