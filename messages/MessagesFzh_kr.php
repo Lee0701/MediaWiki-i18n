@@ -43,6 +43,8 @@
  * @author 아라
  */
 
+$fallback = 'fzh, ko-kore, lzh';
+
 $namespaceNames = [
 	NS_MEDIA            => '미디어',
 	NS_SPECIAL          => '특수',
