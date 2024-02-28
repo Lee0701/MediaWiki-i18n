@@ -25,36 +25,54 @@ $dateFormats = [
 	'nengo both' => 'xtY年n月j日 (D) H:i',
 ];
 
+$digitTransformTable = [
+	'0' => '〇',
+	'1' => '一',
+	'2' => '二',
+	'3' => '三',
+	'4' => '四',
+	'5' => '五',
+	'6' => '六',
+	'7' => '七',
+	'8' => '八',
+	'9' => '九',
+];
+
+$separatorTransformTable = [
+	'.' => '點',
+	',' => '',
+];
+
 $namespaceNames = [
-	NS_MEDIA            => 'メディア',
+	NS_MEDIA            => '媒体',
 	NS_SPECIAL          => '特別',
-	NS_TALK             => 'トーク',
+	NS_TALK             => '討論',
 	NS_USER             => '利用者',
-	NS_USER_TALK        => '利用者・トーク',
-	NS_PROJECT_TALK     => '$1・トーク',
+	NS_USER_TALK        => '利用者討論',
+	NS_PROJECT_TALK     => '$1討論',
 	NS_FILE             => 'ファイル',
-	NS_FILE_TALK        => 'ファイル・トーク',
-	NS_MEDIAWIKI        => 'MediaWiki',
-	NS_MEDIAWIKI_TALK   => 'MediaWiki・トーク',
+	NS_FILE_TALK        => 'ファイル討論',
+	NS_MEDIAWIKI        => '媒体共編',
+	NS_MEDIAWIKI_TALK   => '媒体共編討論',
 	NS_TEMPLATE         => 'テンプレート',
-	NS_TEMPLATE_TALK    => 'テンプレート・トーク',
+	NS_TEMPLATE_TALK    => 'テンプレート討論',
 	NS_HELP             => 'ヘルプ',
-	NS_HELP_TALK        => 'ヘルプ・トーク',
-	NS_CATEGORY         => 'カテゴリ',
-	NS_CATEGORY_TALK    => 'カテゴリ・トーク',
+	NS_HELP_TALK        => 'ヘルプ討論',
+	NS_CATEGORY         => '分類',
+	NS_CATEGORY_TALK    => '分類討論',
 ];
 
 $namespaceAliases = [
-	'ノート'           => NS_TALK,
-	'利用者‐会話'        => NS_USER_TALK,
-	'$1‐ノート'        => NS_PROJECT_TALK,
+	'会話'           => NS_TALK,
+	'利用者会話'        => NS_USER_TALK,
+	'$1会話'        => NS_PROJECT_TALK,
 	'画像'            => NS_FILE,
-	'画像‐ノート'        => NS_FILE_TALK,
-	'ファイル‐ノート'      => NS_FILE_TALK,
-	'MediaWiki‐ノート' => NS_MEDIAWIKI_TALK,
-	'Template‐ノート'  => NS_TEMPLATE_TALK,
-	'Help‐ノート'      => NS_HELP_TALK,
-	'Category‐ノート'  => NS_CATEGORY_TALK
+	'画像会話'        => NS_FILE_TALK,
+	'ファイル会話'      => NS_FILE_TALK,
+	'媒体共編会話' => NS_MEDIAWIKI_TALK,
+	'Template会話'  => NS_TEMPLATE_TALK,
+	'Help会話'      => NS_HELP_TALK,
+	'分類会話'  => NS_CATEGORY_TALK
 ];
 
 /** @phpcs-require-sorted-array */
