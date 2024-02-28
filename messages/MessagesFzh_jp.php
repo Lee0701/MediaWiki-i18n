@@ -5,6 +5,8 @@
  * @ingroup Languages
  */
 
+$fallback = 'ja, lzh';
+
 $datePreferences = [
 	'default',
 	'nengo',
