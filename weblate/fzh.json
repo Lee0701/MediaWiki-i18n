@@ -125,5 +125,8 @@
     "views": "表示",
     "toolbox": "道具",
     "cactions": "其他",
-    "ok": "確認"
+    "ok": "確認",
+    "tog-usenewrc": "最近更新又注視目録閲覧時、複数変更是頁別纏",
+    "tog-editondblclick": "二連押頁編集",
+    "tog-editsectiononrightclick": "節見出之右押節編集"
 }
