@@ -1,7 +1,13 @@
 {
-    "tog-underline": "連結下船:",
-    "tog-newpageshidepatrolled": "新規文書目錄中 檢討完了件 非表示",
+    "tog-underline": "連結下線:",
+    "tog-newpageshidepatrolled": "新規文書目錄中 檢討完了文書 非表示",
     "tog-hidecategorization": "文書分類 非表示",
     "tog-hideminor": "最近變更事項中 些少編輯 非表示",
-    "tog-hidepatrolled": "最近變更事項中 點檢完了件 非表示"
+    "tog-hidepatrolled": "最近變更事項中 點檢完了編輯 非表示",
+    "tog-extendwatchlist": "注視文書目錄中 最近編輯以外編輯 全部表示",
+    "tog-editondblclick": "二重選擇時 文書編輯",
+    "tog-editsectiononrightclick": "文段題目 右選擇時 文段編輯 活性化",
+    "tog-watchcreations": "自己作成 文書·揭示物 注視文書目錄 追加",
+    "tog-watchdefault": "自己編輯 文書·揭示物 注視文書目錄 追加",
+    "tog-watchrollback": "一括復舊機能 使用文書 注視文書 目錄 追加"
 }
