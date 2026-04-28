@@ -3,7 +3,7 @@ Korean Hangul-Hanja mixed script (韓國語 國漢文混用) localization for Me
 
 ## scripts
 Updating locale file(s) on new version release
-1. diff.js
+1. diff.js [weblate/ko-kore.json] [weblate/ko.json] [diff/ko-kore.json]
 2. (Convert words in the generated diff file)
-3. apply.js
-4. update.js
+3. apply.js [weblate/ko.json] [diff/ko-kore.json] [updated/ko-kore.json]
+4. update.js [weblate/ko-kore.json] [updated/ko-kore.json] [out-ko-kore.json]
