@@ -409,6 +409,6 @@ $datePreferences = [
 $defaultDateFormat = 'ko';
 $dateFormats = [
 	'ko time'            => 'H時i分',
-	'ko date'            => 'Y年n月j日（D）',
-	'ko both'            => 'Y年n月j日（D）H時i分',
+	'ko date'            => 'Y年n月j日 (D)',
+	'ko both'            => 'Y年n月j日 (D)H時i分',
 ];
